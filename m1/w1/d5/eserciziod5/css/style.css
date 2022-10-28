@@ -1,0 +1,146 @@
+/* Your styles here */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    align-items: center;
+    position: relative;
+    max-width: 0 auto;
+    }
+
+.container1{
+    display:flex;
+    justify-items: center;
+    justify-content: center;
+    
+    height: 120px;
+    background-color: black;
+    }
+
+.container1 img{
+    padding-top:0.8cm;
+
+}
+
+.container2, .container3, .container4, .container5, .container6{
+    display:grid;
+    justify-items: center;
+    justify-content: center;
+    
+}
+
+.container2{
+    display:grid;
+    justify-items: center;
+    justify-content: center;
+    max-width:  0 auto;
+    height: 260px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1.0cm;
+}
+
+#button{
+    border-width: 3.5cm;
+    border-radius: 10px;
+    background-color: #f04c2f;
+
+
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 0.5cm;
+    margin-top: 0.5cm;
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container3{
+    padding-top: 1.0cm;
+    margin-bottom: 1.5cm;
+    max-width:  0 auto;
+}
+
+.container3 img{
+    border-radius: 200px;
+    margin: 0.8cm;
+}
+
+.container4{
+    display:grid;
+    justify-items: center;
+    justify-content: center;
+    max-width:  0 auto;
+    height: 200px;
+    background-color: #e22d0e;
+    padding: 1.0cm;
+}
+
+#cont1{
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+#p6, #p7, #p8{
+    color: white;
+}
+
+#p6{
+    font-style: italic;
+}
+
+
+#p8{
+    font-size: 12px;
+}
+
+#p7, #p8{
+    line-height: 0.5;
+}
+
+
+.container6{
+    background-color: #25a2c3;
+    display:grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+#child1, #child2, #child3{
+    text-align: center;
+}
+
+.footer, #p15, #p16, #p17{
+    color: white;
+    font-size: 20;
+}
+
+address a:link:{
+    color: white;
+    
+}
+
+.footerp{
+    color:white;
+}
+
+.footer{
+    font-size: 30px;
+}
